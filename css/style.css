@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+body{
+    /*background-color: #364dcc;*/
+    background: linear-gradient(176deg,	#aa8e95 32%, #5c0e3e 100%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: 16px;
+}
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px #ffffff;
+}
+
+.profile{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    list-style: none;
+}
+
+.social img{
+    width: 33px;
+}
+
+.lista-links{
+   list-style: none;
+   margin-top: 80px;
+}
+
+.lista-links li{
+    margin: 40px 20px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+
+.lista-links li a span{
+    font-size: smaller;
+    display: block;
+    color: gray;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.lista-links li a img{
+    width: 33px;
+}
+
+.div-listas{
+    background-color: #f4dfe3;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px ;
+    text-decoration: none;
+    display: flex;    
+}
+
+.div-listas a p{
+  color: #5c0e3e;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 24px;
+  font-style: bold;
+}
+
+.div-listas a {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    text-decoration: none;
+}
